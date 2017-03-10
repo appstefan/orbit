@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    var beacon = OrbitBeacon(identifier: "Tester A")
+    var beacon = OrbitBeacon(identifier: "Default")
     var devices = [(id: String, range: NSNumber)]()
     @IBOutlet weak var tableView: UITableView!
     

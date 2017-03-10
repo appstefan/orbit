@@ -279,7 +279,7 @@ extension OrbitBeacon: CBPeripheralDelegate {
 extension OrbitBeacon: CBCentralManagerDelegate {
     
     func centralManager(_ central: CBCentralManager, didDiscover peripheral: CBPeripheral, advertisementData: [String : Any], rssi RSSI: NSNumber) {
-        print("didDiscover peripheral: \(peripheral.identifier.uuidString),  data: \(advertisementData), rssi: \(RSSI.floatValue)")
+//        print("didDiscover peripheral: \(peripheral.identifier.uuidString),  data: \(advertisementData), rssi: \(RSSI.floatValue)")
         guard var lastValues = peripheralDetected[peripheral.identifier.uuidString.uppercased()] else {
             peripheralsToBeValidated.append(peripheral)
             peripheralDetected.updateValue([NSNumber](), forKey: peripheral.identifier.uuidString.uppercased())
