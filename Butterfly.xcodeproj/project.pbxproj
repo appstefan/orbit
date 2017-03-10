@@ -12,6 +12,8 @@
 		F8B3A7751E7369480046B338 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8B3A7731E7369480046B338 /* Main.storyboard */; };
 		F8B3A7771E7369480046B338 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8B3A7761E7369480046B338 /* Assets.xcassets */; };
 		F8B3A77A1E7369480046B338 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8B3A7781E7369480046B338 /* LaunchScreen.storyboard */; };
+		F8B3A7831E7369580046B338 /* OrbitBeacon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B3A7811E7369580046B338 /* OrbitBeacon.swift */; };
+		F8B3A7841E7369580046B338 /* OrbitCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B3A7821E7369580046B338 /* OrbitCore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		F8B3A7761E7369480046B338 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8B3A7791E7369480046B338 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8B3A77B1E7369480046B338 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8B3A7811E7369580046B338 /* OrbitBeacon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrbitBeacon.swift; sourceTree = "<group>"; };
+		F8B3A7821E7369580046B338 /* OrbitCore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrbitCore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				F8B3A76F1E7369480046B338 /* AppDelegate.swift */,
 				F8B3A7711E7369480046B338 /* ViewController.swift */,
+				F8B3A7811E7369580046B338 /* OrbitBeacon.swift */,
+				F8B3A7821E7369580046B338 /* OrbitCore.swift */,
 				F8B3A7731E7369480046B338 /* Main.storyboard */,
 				F8B3A7761E7369480046B338 /* Assets.xcassets */,
 				F8B3A7781E7369480046B338 /* LaunchScreen.storyboard */,
@@ -139,6 +145,8 @@
 			files = (
 				F8B3A7721E7369480046B338 /* ViewController.swift in Sources */,
 				F8B3A7701E7369480046B338 /* AppDelegate.swift in Sources */,
+				F8B3A7831E7369580046B338 /* OrbitBeacon.swift in Sources */,
+				F8B3A7841E7369580046B338 /* OrbitCore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
